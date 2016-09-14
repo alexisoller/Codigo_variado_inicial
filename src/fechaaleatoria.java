@@ -10,9 +10,9 @@ public class fechaaleatoria {
 	public static void main (String args[]) {
 	int d,m,a;
 	Aleatorio fecha =new Aleatorio();
-	d=fecha.Aleatorio (1,31);
-	m=fecha.Aleatorio (1,12);
-	a=fecha.Aleatorio (1900,2200);
+	d=fecha.CalcularNumero (1,31);
+	m=fecha.CalcularNumero (1,12);
+	a=fecha.CalcularNumero (1900,2200);
 	System.out.print (d+""+m+""+a);
 	
 	}
